@@ -10,13 +10,16 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import "./App.css"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
             <Card titulo="#08 - Renderização Condicional" color="#982395">
-               <ParOuImpar numero={20}></ParOuImpar>
+                <ParOuImpar numero={20}></ParOuImpar>
+                <UsuarioInfo usuario={{ nome: "Ian" }}></UsuarioInfo>
+                <UsuarioInfo usuario={{ email: "Ian@gmail.com" }}></UsuarioInfo>
             </Card>
             <Card titulo="#07 - Desafio repeticao" color="#3A9AD9">
                 <TabelaProdutos />
