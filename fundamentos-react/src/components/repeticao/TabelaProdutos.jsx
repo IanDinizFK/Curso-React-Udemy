@@ -5,7 +5,7 @@ import "./Tabela.css"
 export default props => {
     const ListaTR = produtos.map((produto, key) => {
         return (
-            <tr  key={key} className={key % 2 == 0 ? 'Par': 'Impar'}>
+            <tr  key={key} className={key % 2 === 0 ? 'Par': 'Impar'}>
                 <td>{produto.id}</td>
                 <td>{produto.nome}</td>
                 <td>R$ {produto.preco.toFixed(2)}</td>
