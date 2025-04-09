@@ -53,3 +53,33 @@ CURSO-REACT-UDEMY/
     └── index.js
     └── index.cs
 ```
+## 📦 Como instalar e executar o projeto
+
+### 1. 🔁 Clone o repositório
+
+```bash
+git clone https://github.com/IanDinizFK/Curso-React-Udemy.git
+cd Curso-React-Udemy
+```
+
+### 2. 💻 Instale o Node.js e o npm
+Caso ainda não tenha o Node.js instalado, baixe aqui: (Recomendo a versão mais recente LTS)
+👉 [Clique aqui!](https://nodejs.org/pt/download)
+
+Verifique a instalação:
+```
+node -v
+npm -v
+```
+### 3. 📦 Instale as dependências do projeto e Execute
+```
+C:\Users\Caminho\Para\Seu\Path\Curso-React-Udemy
+npm install
+npm start
+```
+> ✅ Após iniciar o projeto com `npm start`, a aplicação será automaticamente aberta no seu navegador em:
+
+🌐 **http://localhost:3000**
+
+Se isso não acontecer, você pode abrir manualmente o navegador e acessar o endereço acima.
+
